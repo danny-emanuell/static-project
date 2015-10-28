@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  paddin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.main-menu {
+  background-color: #313745;
+  width: 100%;
+  height: 3em;
+  font-family: 'Roboto Condensed';
+}
+.main-menu .navbar .list-menu .item-menu {
+  display: inline-block;
+  float: right;
+  line-height: 3em;
+  padding-right: 1em;
+}
+.main-menu .navbar .list-menu .item-menu a {
+  color: #fff;
+}
+.main-menu .navbar .list-menu .item-menu:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.banner {
+  font-size: 3em;
+  color: #fff;
+  background: #313745;
+  font-family: 'CoopeHewitt-Thin';
+  text-align: center;
+  padding: 0.5em;
+}
+.banner p {
+  margin: 1em auto;
+  width: 50%;
+  font-size: 0.5em;
+}
+.banner .arrow_down {
+  width: 1.3em;
+  height: 1.3em;
+  display: block;
+  border-radius: 100%;
+  margin: auto;
+  background: url("../images/arrow_down.png") no-repeat;
+}
+.productos {
+  font-family: 'Roboto Condensed';
+}
+.productos_row {
+  display: flex;
+}
+.productos_row .item {
+  flex-basis: 50%;
+  height: 75vh;
+  box-sizing: border-box;
+}
+.productos_row .productos_descripcion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.productos_row .item--uno {
+  background-color: #252525;
+  color: #fff;
+}
+.productos_row .item--dos {
+  background-color: #fff;
+}
+.productos_row h4 {
+  text-align: center;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.productos_row p {
+  padding: 10px;
+}
+.productos_row .button_producto {
+  margin-top: 15px;
+  width: 100px;
+  text-align: center;
+  padding: 0.5em;
+  border-radius: 0.2em;
+  margin-left: 40%;
+}
+.productos_row .btn-uno {
+  color: #000 !important;
+  background-color: #fff;
+}
+.productos_row .btn-dos {
+  color: #fff !important;
+  background-color: #000;
+}
+.productos .image-uno {
+  background-image: url("https://placeimg.com/650/350/tech");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.productos .image-dos {
+  background-image: url("https://unsplash.it/650/350/?random");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.notice {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  background-color: rgba(189,189,189,0.3);
+}
+.notice_container {
+  width: 90%;
+  height: 80%;
+  background-color: #008080;
+  box-sizing: border-box;
+  position: absolute;
+  color: #fff;
+  left: 5%;
+  top: 10%;
+}
+.notice_container .notice-box {
+  border: 2px solid #fff;
+  width: 97%;
+  height: 94%;
+  margin: auto;
+  position: absolute;
+  left: 1.3%;
+  top: 2%;
+}
+.notice_container .notice-box .notice_title {
+  border-left: 2px solid #fff;
+  width: 85%;
+  height: 50%;
+  left: 7.5%;
+  top: 10%;
+  position: absolute;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.notice_container .notice-box .notice_title span {
+  font-family: 'CoopeHewitt-Thin';
+  display: block;
+  font-size: 2.5em;
+  padding: 0.16em 0;
+}
+.notice_container .notice-box .notice_desc {
+  width: 85%;
+  position: absolute;
+  left: 7.5%;
+  top: 70%;
+}
+.container_parrallax {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container_parrallax .parrallax_box {
+  padding: 10px 0;
+  width: 33.33%;
+  height: 80vh;
+  position: relative;
+}
+.container_parrallax .parrallax_box img {
+  position: absolute;
+  left: 13%;
+}
+.container_parrallax .parrallax_box .card_parrallax {
+  width: 60%;
+  z-index: 10;
+  position: absolute;
+  background-color: rgba(68,68,68,0.95);
+  padding: 0.5em;
+  bottom: 5%;
+  left: 30%;
+}
+.container_parrallax .parrallax_box .card_parrallax .card_content {
+  border: 1px solid #fff;
+  padding: 1em;
+}
+.container_parrallax .parrallax_box .card_parrallax .card_content .card_desc span {
+  display: block;
+  color: #fff;
+}
+.container_parrallax .parrallax_box .card_parrallax .card_content .card_desc span em {
+  font-size: 0.85em;
+}
+.contact {
+  font-family: 'CoopeHewitt-Thin';
+  width: 100%;
+  margin: auto;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+.contact h2 {
+  text-align: center;
+  font-size: 3em;
+  padding: 15px;
+}
+.contact form {
+  padding: 2em;
+  border: 3px dashed #008080;
+}
+.contact form input,
+.contact form textarea {
+  display: block;
+  border: 0;
+  border-bottom: 1px solid #808080;
+  margin-top: 1em;
+  margin-left: 10%;
+  padding: 0.8em;
+}
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+  width: 80%;
+}
+.contact form .button {
+  width: 22%;
+  margin-left: 37%;
+  border: 1px solid #b4b4b4;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5em;
+  margin-top: 1.5em;
+  cursor: pointer;
+}
+.contact form .button:hover {
+  background-color: #313745;
+  color: #fff;
+}
+.footer {
+  marin-top: 10px;
+  width: 100%;
+  height: 20vh;
+  background-color: #313745;
+  font-size: 0.95em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.footer .container_footer {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  width: 100%;
+}
+.footer .container_footer .left {
+  padding: 1em;
+  display: flex;
+  justify-content: flex-end;
+  border-right: 1px solid #fff;
+}
+.footer .container_footer .right {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer .container_footer .right .icon_social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer .container_footer .right .icon_social li {
+  margin-right: 0.6em;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?kywitz");
+  src: url("../fonts/icomoon.eot?kywitz#iefix") format('embedded-opentype'), url("../fonts/icomoon.ttf?kywitz") format('truetype'), url("./fonts/icomoon.woff?kywitz") format('woff'), url("../fonts/icomoon.svg?kywitz#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+/* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-google-plus3:before {
+  content: "\e98c";
+}
+.icon-facebook3:before {
+  content: "\e98f";
+}
+.icon-instagram:before {
+  content: "\e991";
+}
+.icon-twitter3:before {
+  content: "\e993";
+}
+.icon-youtube2:before {
+  content: "\e998";
+}
+@font-face {
+  font-family: 'CoopeHewitt-Thin';
+  src: url("../fonts/cooper-hewitt/CooperHewitt-Light.otf");
+}
