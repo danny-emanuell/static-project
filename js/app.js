@@ -4,7 +4,7 @@ var pics = [],
 
 function addPics(keyWord){
 	pics.push({
-		url: baseUrl + keyWords[keyWord] + "/" + keyWord
+		url: baseUrl + keyWords[keyWord] + "/"
 	})
 }
 
