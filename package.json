@@ -1,0 +1,19 @@
+{
+  "name": "static-project",
+  "version": "0.0.1",
+  "description": "Proyecto personal de frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danny-emanuell/static-project.git"
+  },
+  "author": "dannyoemanuell@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danny-emanuell/static-project/issues"
+  },
+  "homepage": "https://github.com/danny-emanuell/static-project#readme"
+}
